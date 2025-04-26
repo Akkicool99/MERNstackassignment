@@ -1,0 +1,52 @@
+body {
+  background: orange; /* Set full background to orange */
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.menu-container {
+  position: relative;
+  width: 200px;
+  margin: 100px auto;
+}
+
+.menu-button {
+  width: 100%;
+  padding: 10px;
+  background: white; /* Button is white to stand out */
+  color: black;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: transform 0.3s ease;
+  border-radius: 8px;
+}
+
+.menu-button.rotate {
+  transform: rotate(180deg);
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.menu li {
+  padding: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.menu li:hover {
+  background: #f0f0f0;
+}
+
+.hidden {
+  display: none;
+}
